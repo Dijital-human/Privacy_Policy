@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for [APP_NAME]">
+    <title>Privacy Policy - Catch & Dodge </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .last-updated strong {
+            color: #667eea;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        h3 {
+            color: #764ba2;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        .contact-info h3 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .app-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .app-link:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 Privacy Policy</h1>
+            <p>Catch & Dodge </p>
+        </div>
+        
+        <div class="content">
+            <div class="last-updated">
+                <strong>Last Updated:</strong> <span id="current-date"></span>
+            </div>
+            
+            <h2>1. Introduction</h2>
+            <p>
+                Catch & Dodge  ("we", "our", or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+            </p>
+            <p>
+                By using Catch & Dodge , you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our application.
+            </p>
+            
+            <h2>2. Information We Collect</h2>
+            
+            <h3>2.1 Automatically Collected Information</h3>
+            <p>When you use Catch & Dodge , we may automatically collect the following information:</p>
+            <ul>
+                <li><strong>Device Information:</strong> Device type, operating system version, device model, unique device identifiers, screen resolution</li>
+                <li><strong>Usage Data:</strong> How you interact with the app, features used, time spent in the app, game statistics, scores, achievements</li>
+                <li><strong>Crash Data:</strong> Error logs, crash reports, performance metrics to help us improve app stability</li>
+                <li><strong>Analytics Data:</strong> App events, user interactions, feature usage patterns</li>
+            </ul>
+            
+            <h3>2.2 Information from Third-Party Services</h3>
+            <p>We use third-party services that may collect information:</p>
+            <ul>
+                <li><strong>Firebase Analytics:</strong> Collects anonymous usage statistics and app events</li>
+                <li><strong>Firebase Crashlytics:</strong> Collects crash reports and error logs</li>
+                <li><strong>Google AdMob:</strong> Shows advertisements and may collect advertising identifiers</li>
+                <li><strong>Apple Game Center:</strong> Manages leaderboards and achievements (if applicable)</li>
+            </ul>
+            
+            <h3>2.3 Purchase Information</h3>
+            <p>If you make in-app purchases, we collect:</p>
+            <ul>
+                <li>Purchase history and transaction data</li>
+                <li>Subscription status and expiration dates</li>
+                <li>Product interaction data</li>
+            </ul>
+            <p><strong>Note:</strong> We do not collect payment card information. All payments are processed by Apple through the App Store.</p>
+            
+            <h2>3. How We Use Your Information</h2>
+            <p>We use the collected information for the following purposes:</p>
+            <ul>
+                <li><strong>To Improve Our App:</strong> Analyze usage patterns, fix bugs, optimize performance, and enhance user experience</li>
+                <li><strong>To Provide Services:</strong> Deliver app features, maintain leaderboards, sync data across devices</li>
+                <li><strong>To Show Advertisements:</strong> Display relevant ads through AdMob (for free users)</li>
+                <li><strong>To Communicate:</strong> Respond to your inquiries and provide customer support</li>
+                <li><strong>To Ensure Security:</strong> Detect and prevent fraud, abuse, and security issues</li>
+            </ul>
+            
+            <h2>4. Data Sharing and Disclosure</h2>
+            <p>We do not sell, trade, or rent your personal information to third parties. We may share information only in the following circumstances:</p>
+            <ul>
+                <li><strong>Service Providers:</strong> With trusted third-party service providers (Firebase, AdMob) who assist us in operating our app</li>
+                <li><strong>Legal Requirements:</strong> When required by law or to protect our rights and safety</li>
+                <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets</li>
+            </ul>
+            
+            <h2>5. Data Security</h2>
+            <p>We implement appropriate technical and organizational measures to protect your information:</p>
+            <ul>
+                <li>Encryption of data in transit</li>
+                <li>Secure data storage</li>
+                <li>Regular security assessments</li>
+                <li>Access controls and authentication</li>
+            </ul>
+            <p>However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.</p>
+            
+            <h2>6. Your Rights and Choices</h2>
+            <p>You have certain rights regarding your personal information:</p>
+            <ul>
+                <li><strong>Access:</strong> Request access to your personal information</li>
+                <li><strong>Correction:</strong> Request correction of inaccurate information</li>
+                <li><strong>Deletion:</strong> Request deletion of your information</li>
+                <li><strong>Opt-Out:</strong> Opt-out of certain data collection practices</li>
+                <li><strong>Data Portability:</strong> Request a copy of your data</li>
+            </ul>
+            <p>To exercise these rights, please contact us using the information provided in the "Contact Us" section below.</p>
+            
+            <h2>7. Children's Privacy</h2>
+            <p>Our app is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.</p>
+            
+            <h2>8. International Data Transfers</h2>
+            <p>Your information may be transferred to and processed in countries other than your country of residence. These countries may have data protection laws that differ from those in your country. By using our app, you consent to the transfer of your information to these countries.</p>
+            
+            <h2>9. Data Retention</h2>
+            <p>We retain your information for as long as necessary to provide our services and fulfill the purposes outlined in this Privacy Policy. We may retain certain information for longer periods as required by law or for legitimate business purposes.</p>
+            
+            <h2>10. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+            <ul>
+                <li>Posting the new Privacy Policy on this page</li>
+                <li>Updating the "Last Updated" date</li>
+                <li>Notifying you through the app (if significant changes occur)</li>
+            </ul>
+            <p>You are advised to review this Privacy Policy periodically for any changes.</p>
+            
+            <h2>11. Third-Party Links</h2>
+            <p>Our app may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies.</p>
+            
+            <h2>12. California Privacy Rights</h2>
+            <p>If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA), including:</p>
+            <ul>
+                <li>The right to know what personal information is collected</li>
+                <li>The right to delete personal information</li>
+                <li>The right to opt-out of the sale of personal information</li>
+                <li>The right to non-discrimination for exercising your privacy rights</li>
+            </ul>
+            
+            <h2>13. GDPR Rights (European Users)</h2>
+            <p>If you are located in the European Economic Area (EEA), you have additional rights under the General Data Protection Regulation (GDPR), including:</p>
+            <ul>
+                <li>Right to access your personal data</li>
+                <li>Right to rectification</li>
+                <li>Right to erasure ("right to be forgotten")</li>
+                <li>Right to restrict processing</li>
+                <li>Right to data portability</li>
+                <li>Right to object to processing</li>
+                <li>Right to withdraw consent</li>
+            </ul>
+            
+            <div class="contact-info">
+                <h3>14. Contact Us</h3>
+                <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:dijital_human@icloud.com">dijital_human@icloud.com</a></p>
+                <p><strong>App:</strong> <a href="[APP_LINK]" class="app-link">Download Catch & Dodge </a></p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Catch & Dodge . All rights reserved.</p>
+            <p>This Privacy Policy is effective as of the "Last Updated" date shown above.</p>
+        </div>
+    </div>
+    
+    <script>
+        // Set current date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+</body>
+</html>
